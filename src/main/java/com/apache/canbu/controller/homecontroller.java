@@ -10,7 +10,7 @@ public class homecontroller {
     @RequestMapping(method = RequestMethod.GET, path = "/home")
     public String home() {
 
-        System.out.println("hompage");
+        System.out.println("hompageasd");
         return "home";
     }
 }
